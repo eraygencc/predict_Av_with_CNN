@@ -10,7 +10,7 @@ The goal is to test if ML can be used to infer subtle dust extinction effects fr
 ---
 
 ## Repository Structure
-
+```
 predict_Av_with_CNN/│
 ├── README.md
 ├── requirements.txt
@@ -23,6 +23,7 @@ predict_Av_with_CNN/│
 │ ├── cnn_model.py # CNN model definition
 │ ├── dataset.py # Dataset generation and DataLoaders
 │ └── train.py # Training and validation loop
+```
 
 Installing dependencies:
 `pip install -r requirements.txt`
